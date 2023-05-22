@@ -2,8 +2,10 @@ import CallToAction from "@/components/CallToAction";
 import Header from "@/components/Header";
 import Features from "@/components/Features";
 import Hero from "@/components/Hero";
-import Pricing from "@/components/Pricing";
+import PricingDomba from "@/components/PricingDomba";
 import Footer from "@/components/Footer";
+import Example from "@/components/FAQ";
+import PricingSapi from "@/components/PricingSapi";
 
 export default function Home() {
   return (
@@ -11,7 +13,9 @@ export default function Home() {
       <Header/>
       <Hero/>
       <Features/>
-      <Pricing/>
+      <PricingDomba/>
+      <PricingSapi/>
+      <Example/>
       <CallToAction/>
       <Footer/>
     </>
