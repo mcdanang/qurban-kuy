@@ -50,36 +50,34 @@ export default function PricingDomba() {
         </div>
       </div>
 
-      <div className="mt-16 bg-white pb-12 lg:mt-20 lg:pb-20">
+      <div className="mt-16 bg-choco pb-12 lg:mt-20 lg:pb-20">
         <div className="relative z-0">
           <div className="absolute inset-0 h-5/6 bg-choco lg:h-2/3" />
           <div className="mx-auto max-w-7xl px-10 lg:px-8">
             <div className="relative mt-12 space-y-4 sm:mt-16 sm:grid sm:grid-cols-2 sm:gap-16 sm:space-y-0 lg:mx-auto lg:max-w-4xl">
               {tiers.map((tier) => (
-                <>
-                  <div
-                    key={tier.name}
-                    className="divide-y divide-gray-200 max-w-md rounded-3xl border-black border-4 shadow-sm bg-white"
-                  >
-                    <div className="p-2 h-80 lg:h-[420px] flex items-center justify-center">
-                      <h2
-                        className={`font-fredoka font-semibold uppercase text-center [word-spacing:999px] ${tier.size}`}
-                      >
-                        {tier.name}
-                      </h2>
-                    </div>
-                    <div className="relative border-none">
-                      <div className="absolute bottom-5 right-10 font-blogger text-xl lg:text-3xl">
-                        {tier.weight}
-                      </div>
-                    </div>
-                    <div className="relative border-none">
-                      <div className="absolute bottom-5 left-5 text-center font-monts font-semibold text-xl lg:text-2xl">
-                        {tier.price}
-                      </div>
+                <div
+                  key={tier.name}
+                  className="divide-y divide-gray-200 max-w-md rounded-3xl border-black border-4 shadow-sm bg-white"
+                >
+                  <div className="p-2 h-80 lg:h-[420px] flex items-center justify-center">
+                    <h2
+                      className={`font-fredoka font-semibold uppercase text-center [word-spacing:999px] ${tier.size}`}
+                    >
+                      {tier.name}
+                    </h2>
+                  </div>
+                  <div className="relative border-none">
+                    <div className="absolute bottom-5 right-10 font-blogger text-xl lg:text-3xl">
+                      {tier.weight}
                     </div>
                   </div>
-                </>
+                  <div className="relative border-none">
+                    <div className="absolute bottom-5 left-5 text-center font-monts font-semibold text-xl lg:text-2xl">
+                      {tier.price}
+                    </div>
+                  </div>
+                </div>
               ))}
             </div>
           </div>

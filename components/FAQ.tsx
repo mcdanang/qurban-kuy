@@ -7,7 +7,7 @@ const faqs = [
     question: "Bagaimana cara melakukan order hewan qurban?",
     answer: `
       Akad yang digunakan adalah Akad Salam.
-      Silahkan pilih kategori hewan yang akan dipesan lalu hubungi kami untuk melaksanakan pembayaran.
+      Silahkan pilih kategori hewan yang akan dipesan lalu hubungi kami untuk melaksanakan pembayaran cash di muka.
       Kami akan siapkan hewan sesuai pesanan anda dan hewan akan dikirim pada H-1 Idul Adha.
       Jika hingga H-1 hewan masih belum dikirim, anda berhak membatalkan transaksi (uang kembali) atau memberi waktu lebih untuk kami siapkan hewan di hari H pagi.
       `,
@@ -22,7 +22,7 @@ const faqs = [
   },
 ];
 
-export default function Example() {
+export default function FAQ() {
   return (
     <div className="bg-cream" id="faq">
       <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:py-40 lg:px-8">
