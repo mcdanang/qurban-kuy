@@ -4,6 +4,7 @@ const navigation = [
   { name: "Harga Domba", href: "#harga-domba" },
   { name: "Harga Sapi", href: "#harga-sapi" },
   { name: "FAQ", href: "#faq" },
+  { name: "Gallery", href: "#gallery" },
 ];
 
 export default function Header() {

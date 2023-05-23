@@ -4,8 +4,9 @@ import Features from "@/components/Features";
 import Hero from "@/components/Hero";
 import PricingDomba from "@/components/PricingDomba";
 import Footer from "@/components/Footer";
-import Example from "@/components/FAQ";
+import FAQ from "@/components/FAQ";
 import PricingSapi from "@/components/PricingSapi";
+import Gallery from "@/components/Gallery";
 
 export default function Home() {
   return (
@@ -15,8 +16,9 @@ export default function Home() {
       <Features/>
       <PricingDomba/>
       <PricingSapi/>
-      <Example/>
+      <FAQ/>
       <CallToAction/>
+      <Gallery/>
       <Footer/>
     </>
   )
