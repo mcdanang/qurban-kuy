@@ -9,7 +9,7 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <div className="relative isolate overflow-hidden bg-white">
+    <div className="relative isolate bg-white">
       <svg
         className="absolute inset-0 -z-10 h-full w-full stroke-gray-200 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]"
         aria-hidden="true"
@@ -33,7 +33,7 @@ export default function Hero() {
           fill="url(#0787a7c5-978c-4f66-83c7-11c213f99cb7)"
         />
       </svg>
-      <div className="mx-auto max-w-7xl px-6 pt-10 pb-24 sm:pb-32 lg:flex lg:py-40 lg:px-8">
+      <div className="mx-auto max-w-7xl px-6 pt-10 pb-24 sm:pb-32 lg:flex lg:py-15 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-xl lg:flex-shrink-0 lg:pt-8">
           <div className="mt-24 sm:mt-32 lg:mt-16">
             <a
@@ -88,15 +88,15 @@ export default function Hero() {
             </a>
           </div>
         </div>
-        <div className="mx-auto mt-16 flex max-w-2xl sm:mt-24 lg:ml-10 lg:mt-0 lg:mr-0 lg:max-w-none lg:flex-none xl:ml-32">
-          <div className="max-w-3xl flex-none sm:max-w-5xl lg:max-w-none">
-            <div className="-m-2 rounded-xl bg-cream/90 p-2 ring-1 ring-inset ring-cream lg:-m-4 lg:rounded-2xl lg:p-4">
+        <div className="mx-auto mt-20 flex justify-center items-center max-w-2xl sm:mt-24 lg:ml-10 lg:mt-20 lg:mr-20">
+          <div className="max-w-3xl flex lg:flex-none justify-center sm:max-w-5xl lg:ml-52">
+            <div className="-m-2 rounded-xl p-2 lg:-m-4 lg:rounded-2xl lg:p-4">
               <Image
                 src="/images/qurban-2023.jpg"
                 alt="App screenshot"
                 width={1000}
                 height={1000}
-                className="w-[40rem] rounded-md shadow-2xl ring-1 ring-cream/10"
+                className=" w-[35rem] lg:w-[37rem] rounded-md shadow-2xl shadow-slate-900"
               />
             </div>
           </div>
